@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #FFF8F2;
+  --color-coral: #E8462A;
+  --color-coral-dark: #C73A22;
+  --color-navy: #1B2A4A;
+  --color-teal: #008888;
+  --color-gold: #C9952A;
+  --color-muted: #8B8580;
+  --color-bdr: #EDE8E0;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Noto Sans JP', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+html, body, #root {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #FFF8F2;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }

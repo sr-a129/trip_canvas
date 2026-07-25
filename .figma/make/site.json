@@ -1,0 +1,10 @@
+{
+  "description": "Ryou streamlines meal planning and grocery shopping for busy individuals, offering personalized recipes and smart shopping lists to save time and reduce stress.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
