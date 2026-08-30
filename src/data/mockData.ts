@@ -10,12 +10,12 @@ export const trips: Trip[] = [
     coverImage: 'https://images.unsplash.com/photo-1729290098101-fef6e9be922d?w=800&h=600&fit=crop&auto=format',
     emoji: '🌺',
     members: [
-      { id: '1', name: '', nickname: 'さら', role: '', color: '#FF6B9D', emoji: '🌸' },
-      { id: '2', name: '', nickname: 'まなか', role: '', color: '#FFB347', emoji: '🌻' },
-      { id: '3', name: '', nickname: 'じょうじ', role: '', color: '#5BA8F5', emoji: '🌊' },
-      { id: '4', name: '', nickname: 'さとそう', role: '', color: '#6BCB77', emoji: '🌿' },
-      { id: '5', name: '', nickname: 'たくみ', role: '', color: '#e24444', emoji: '🎈' },
-      { id: '6', name: '', nickname: 'けいた', role: '', color: '#a36bcb', emoji: '🍇' },
+      { id: '', name: '', nickname: 'さら', role: '', color: '#FF6B9D', emoji: '🌸' },
+      { id: '', name: '', nickname: 'まなか', role: '', color: '#FFB347', emoji: '🌻' },
+      { id: '', name: '', nickname: 'じょうじ', role: '', color: '#5BA8F5', emoji: '🌊' },
+      { id: '', name: '', nickname: 'さとそう', role: '', color: '#6BCB77', emoji: '🌿' },
+      { id: '', name: '', nickname: 'たくみ', role: '', color: '#e24444', emoji: '🎈' },
+      { id: '', name: '', nickname: 'けいた', role: '', color: '#a36bcb', emoji: '🍇' },
     ],
     schedule: [
       {
