@@ -5,19 +5,21 @@ export const trips: Trip[] = [
     id: 'okinawa-2026',
     name: 'OKINAWA 2026',
     destination: '沖縄',
-    startDate: '2026-08-05',
-    endDate: '2026-08-08',
+    startDate: '2026-09-01',
+    endDate: '2026-09-04',
     coverImage: 'https://images.unsplash.com/photo-1729290098101-fef6e9be922d?w=800&h=600&fit=crop&auto=format',
     emoji: '🌺',
     members: [
-      { id: '1', name: '田中ゆい', nickname: 'ゆい', role: '幹事', color: '#FF6B9D', emoji: '🌸' },
-      { id: '2', name: '山田ひな', nickname: 'ひな', role: '予約担当', color: '#FFB347', emoji: '🌻' },
-      { id: '3', name: '鈴木りょう', nickname: 'りょう', role: '運転担当', color: '#5BA8F5', emoji: '🌊' },
-      { id: '4', name: '佐藤さき', nickname: 'さき', role: '写真担当', color: '#6BCB77', emoji: '🌿' },
+      { id: '1', name: '早川紗來', nickname: 'さら', role: '', color: '#FF6B9D', emoji: '🌸' },
+      { id: '2', name: '宮本まなか', nickname: 'まなか', role: '', color: '#FFB347', emoji: '🌻' },
+      { id: '3', name: '稲野辺譲司', nickname: 'じょうじ', role: '', color: '#5BA8F5', emoji: '🌊' },
+      { id: '4', name: '佐藤颯太', nickname: 'さとそう', role: '', color: '#6BCB77', emoji: '🌿' },
+      { id: '5', name: '市川拓実', nickname: 'たくみ', role: '', color: '#6BCB77', emoji: '🌿' },
+      { id: '6', name: '吉岡慶太', nickname: 'けいた', role: '', color: '#6BCB77', emoji: '🌿' },
     ],
     schedule: [
       {
-        date: '2026-08-05',
+        date: '2026-09-01',
         label: 'Day 1',
         items: [
           { id: 's1', time: '06:00', title: '羽田空港 集合', location: '第2ターミナル カウンターF前', memo: '遅刻厳禁！', assignee: '全員', done: false, emoji: '✈️' },
@@ -30,7 +32,7 @@ export const trips: Trip[] = [
         ]
       },
       {
-        date: '2026-08-06',
+        date: '2026-09-02',
         label: 'Day 2',
         items: [
           { id: 's8', time: '08:00', title: '朝食ビュッフェ', location: 'ホテル', memo: '8:00〜10:00', assignee: '全員', done: false, emoji: '🍳' },
@@ -42,7 +44,7 @@ export const trips: Trip[] = [
         ]
       },
       {
-        date: '2026-08-07',
+        date: '2026-09-03',
         label: 'Day 3',
         items: [
           { id: 's14', time: '09:00', title: 'パラセーリング 🗳 投票中', location: 'ルネッサンスビーチ', memo: '投票結果次第で決定', assignee: 'ゆい', done: false, emoji: '🪂' },
@@ -53,7 +55,7 @@ export const trips: Trip[] = [
         ]
       },
       {
-        date: '2026-08-08',
+        date: '2026-09-04',
         label: 'Day 4',
         items: [
           { id: 's19', time: '07:00', title: 'チェックアウト', location: 'ザ・ブセナテラス', memo: '忘れ物チェック！', assignee: '全員', done: false, emoji: '🏨' },
@@ -77,7 +79,7 @@ export const trips: Trip[] = [
     memos: [
       {
         id: 'm1', title: '集合場所・時間', pinned: true, type: 'note',
-        content: '8月5日（水）朝6:00\n羽田空港 第2ターミナル\nチェックインカウンターF前\n\n⚠️ 遅刻厳禁！飛行機に乗り遅れます',
+        content: '9月1日（火）朝6:00\n羽田空港 第2ターミナル\nチェックインカウンターF前\n\n⚠️ 遅刻厳禁！飛行機に乗り遅れます',
         items: []
       },
       {
@@ -123,12 +125,12 @@ export const trips: Trip[] = [
         flightNumber: 'NH987',
         from: '羽田',
         to: '那覇',
-        departTime: '08:30',
-        arriveTime: '11:30',
+        departTime: '15:55',
+        arriveTime: '18:25',
         terminal: '第2ターミナル',
         gate: 'B12',
         seats: ['15A', '15B', '16A', '16B'],
-        date: '2026-08-05'
+        date: '2026-09-01'
       },
       {
         type: 'arrival',
@@ -136,12 +138,12 @@ export const trips: Trip[] = [
         flightNumber: 'NH994',
         from: '那覇',
         to: '羽田',
-        departTime: '13:45',
-        arriveTime: '15:45',
+        departTime: '10:50',
+        arriveTime: '13:25',
         terminal: '国内線ターミナル',
         gate: 'A8',
         seats: ['22C', '22D', '23C', '23D'],
-        date: '2026-08-08'
+        date: '2026-09-04'
       }
     ],
     hotel: {
@@ -154,42 +156,6 @@ export const trips: Trip[] = [
       parking: true,
       notes: '・ビーチタオルは別料金\n・プールは7:00〜20:00\n・朝食は8:00〜10:00（要予約）',
       image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=400&fit=crop&auto=format',
-    }
-  },
-  {
-    id: 'kyoto-2026',
-    name: 'KYOTO AUTUMN',
-    destination: '京都',
-    startDate: '2026-11-20',
-    endDate: '2026-11-23',
-    coverImage: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop&auto=format',
-    emoji: '⛩️',
-    members: [
-      { id: '1', name: '田中ゆい', nickname: 'ゆい', role: '幹事', color: '#FF6B9D', emoji: '🌸' },
-      { id: '2', name: '山田ひな', nickname: 'ひな', role: '予約担当', color: '#FFB347', emoji: '🌻' },
-    ],
-    schedule: [
-      {
-        date: '2026-11-20',
-        label: 'Day 1',
-        items: [
-          { id: 'k1', time: '09:00', title: '新幹線 出発', location: '東京駅', memo: 'のぞみ15号', assignee: '全員', done: false, emoji: '🚄' },
-          { id: 'k2', time: '11:30', title: '京都駅 到着', location: '京都駅', memo: 'ホテルに荷物を預ける', assignee: '全員', done: false, emoji: '🏯' },
-          { id: 'k3', time: '13:00', title: '嵐山 竹林', location: '嵐山', memo: '午後が空いてて綺麗', assignee: '全員', done: false, emoji: '🎋' },
-        ]
-      }
-    ],
-    expenses: [],
-    memos: [],
-    packing: [],
-    flights: [],
-    hotel: {
-      name: '星のや京都',
-      address: '京都府京都市西京区嵐山元録山町11-2',
-      checkIn: '2026-11-20 15:00',
-      checkOut: '2026-11-23 12:00',
-      parking: false,
-      image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&h=400&fit=crop&auto=format',
     }
   }
 ]
