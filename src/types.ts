@@ -1,6 +1,14 @@
 export type AppMode = 'login' | 'host' | 'guest'
+
 export type AppScreen = 'tripList' | 'trip'
-export type TabId = 'home' | 'schedule' | 'expense' | 'members' | 'more'
+
+export type TabId =
+  | 'home'
+  | 'schedule'
+  | 'expense'
+  | 'packing'
+  | 'members'
+  | 'more'
 
 export interface Member {
   id: string
@@ -70,6 +78,7 @@ export interface Flight {
 }
 
 export interface Hotel {
+  id: string
   name: string
   address: string
   checkIn: string
@@ -94,6 +103,6 @@ export interface Trip {
   memos: MemoItem[]
   packing: PackingItem[]
   flights: Flight[]
-  hotel: Hotel
+  hotels: Hotel[]
   emoji: string
 }

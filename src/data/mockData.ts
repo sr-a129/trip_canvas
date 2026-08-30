@@ -146,16 +146,19 @@ export const trips: Trip[] = [
         date: '2026-09-04'
       }
     ],
-    hotel: {
-      name: 'ザ・ブセナテラス',
-      address: '〒905-0026 沖縄県名護市喜瀬1808',
-      checkIn: '2026-08-05 15:00',
-      checkOut: '2026-08-08 11:00',
-      wifi: 'BusenaGuest / Pass: ocean2026',
-      keyCode: '#1501, #1502',
-      parking: true,
-      notes: '・ビーチタオルは別料金\n・プールは7:00〜20:00\n・朝食は8:00〜10:00（要予約）',
-      image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=400&fit=crop&auto=format',
-    }
+    hotels: [
+      {
+        id: 'hotel-1',
+        name: 'ザ・ブセナテラス',
+        address: '〒905-0026 沖縄県名護市喜瀬1808',
+        checkIn: '2026-09-02T15:00',
+        checkOut: '2026-09-04T11:00',
+        wifi: 'BusenaGuest / Pass: ocean2026',
+        keyCode: '#1501, #1502',
+        parking: true,
+        notes: '・ビーチタオルは別料金\n・プールは7:00〜20:00\n・朝食は8:00〜10:00（要予約）',
+        image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&h=400&fit=crop&auto=format',
+      },
+    ]
   }
 ]
